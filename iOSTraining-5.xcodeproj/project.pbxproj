@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E027CC7E73FEBE973FAAFE /* Pods_iOSTraining_5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4A3B65A1CAFCFF8EE8F942 /* Pods_iOSTraining_5.framework */; };
+		388D3BEF1EC5743700439703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D3BEE1EC5743700439703 /* AppDelegate.swift */; };
+		388D3BF11EC5743700439703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D3BF01EC5743700439703 /* ViewController.swift */; };
+		388D3BF41EC5743700439703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388D3BF21EC5743700439703 /* Main.storyboard */; };
+		388D3BF61EC5743700439703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388D3BF51EC5743700439703 /* Assets.xcassets */; };
+		388D3BF91EC5743700439703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388D3BF71EC5743700439703 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		388D3BEB1EC5743700439703 /* iOSTraining-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSTraining-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D3BEE1EC5743700439703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388D3BF01EC5743700439703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		388D3BF31EC5743700439703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388D3BF51EC5743700439703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388D3BF81EC5743700439703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388D3BFA1EC5743700439703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F08A0ADB684EB3CC538D92A /* Pods-iOSTraining-5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTraining-5.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTraining-5/Pods-iOSTraining-5.release.xcconfig"; sourceTree = "<group>"; };
+		4A4A3B65A1CAFCFF8EE8F942 /* Pods_iOSTraining_5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTraining_5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E933F4F9472AE6B0F07429 /* Pods-iOSTraining-5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTraining-5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTraining-5/Pods-iOSTraining-5.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388D3BE81EC5743700439703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E027CC7E73FEBE973FAAFE /* Pods_iOSTraining_5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFE16C9D084FBCC74D38BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5E933F4F9472AE6B0F07429 /* Pods-iOSTraining-5.debug.xcconfig */,
+				3F08A0ADB684EB3CC538D92A /* Pods-iOSTraining-5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		388D3BE21EC5743700439703 = {
+			isa = PBXGroup;
+			children = (
+				388D3BED1EC5743700439703 /* iOSTraining-5 */,
+				388D3BEC1EC5743700439703 /* Products */,
+				2DFE16C9D084FBCC74D38BA4 /* Pods */,
+				D502E36B2EDDF26B640D7529 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388D3BEC1EC5743700439703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388D3BEB1EC5743700439703 /* iOSTraining-5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388D3BED1EC5743700439703 /* iOSTraining-5 */ = {
+			isa = PBXGroup;
+			children = (
+				388D3BEE1EC5743700439703 /* AppDelegate.swift */,
+				388D3BF01EC5743700439703 /* ViewController.swift */,
+				388D3BF21EC5743700439703 /* Main.storyboard */,
+				388D3BF51EC5743700439703 /* Assets.xcassets */,
+				388D3BF71EC5743700439703 /* LaunchScreen.storyboard */,
+				388D3BFA1EC5743700439703 /* Info.plist */,
+			);
+			path = "iOSTraining-5";
+			sourceTree = "<group>";
+		};
+		D502E36B2EDDF26B640D7529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A3B65A1CAFCFF8EE8F942 /* Pods_iOSTraining_5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388D3BEA1EC5743700439703 /* iOSTraining-5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388D3BFD1EC5743700439703 /* Build configuration list for PBXNativeTarget "iOSTraining-5" */;
+			buildPhases = (
+				1AF74880752538FB57DA3926 /* [CP] Check Pods Manifest.lock */,
+				388D3BE71EC5743700439703 /* Sources */,
+				388D3BE81EC5743700439703 /* Frameworks */,
+				388D3BE91EC5743700439703 /* Resources */,
+				0DBB0559DA71B33FFFC7DC8D /* [CP] Embed Pods Frameworks */,
+				FC184CA79417EC4AEC91EB40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSTraining-5";
+			productName = "iOSTraining-5";
+			productReference = 388D3BEB1EC5743700439703 /* iOSTraining-5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388D3BE31EC5743700439703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Manami Ichikawa";
+				TargetAttributes = {
+					388D3BEA1EC5743700439703 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 388D3BE61EC5743700439703 /* Build configuration list for PBXProject "iOSTraining-5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388D3BE21EC5743700439703;
+			productRefGroup = 388D3BEC1EC5743700439703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388D3BEA1EC5743700439703 /* iOSTraining-5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388D3BE91EC5743700439703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388D3BF91EC5743700439703 /* LaunchScreen.storyboard in Resources */,
+				388D3BF61EC5743700439703 /* Assets.xcassets in Resources */,
+				388D3BF41EC5743700439703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBB0559DA71B33FFFC7DC8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTraining-5/Pods-iOSTraining-5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AF74880752538FB57DA3926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC184CA79417EC4AEC91EB40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTraining-5/Pods-iOSTraining-5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388D3BE71EC5743700439703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388D3BF11EC5743700439703 /* ViewController.swift in Sources */,
+				388D3BEF1EC5743700439703 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		388D3BF21EC5743700439703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388D3BF31EC5743700439703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388D3BF71EC5743700439703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388D3BF81EC5743700439703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388D3BFB1EC5743700439703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388D3BFC1EC5743700439703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388D3BFE1EC5743700439703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E933F4F9472AE6B0F07429 /* Pods-iOSTraining-5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOSTraining-5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.iOSTraining-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		388D3BFF1EC5743700439703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F08A0ADB684EB3CC538D92A /* Pods-iOSTraining-5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOSTraining-5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.iOSTraining-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388D3BE61EC5743700439703 /* Build configuration list for PBXProject "iOSTraining-5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388D3BFB1EC5743700439703 /* Debug */,
+				388D3BFC1EC5743700439703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388D3BFD1EC5743700439703 /* Build configuration list for PBXNativeTarget "iOSTraining-5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388D3BFE1EC5743700439703 /* Debug */,
+				388D3BFF1EC5743700439703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388D3BE31EC5743700439703 /* Project object */;
+}
